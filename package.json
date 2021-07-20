@@ -1,0 +1,17 @@
+{
+  "name": "tdd",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "test": "jest --config ./jest.config.json"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "jest": "^27.0.6",
+    "nodemon": "^2.0.12"
+  }
+}
